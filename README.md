@@ -43,3 +43,25 @@ sudo apt install default-jre
 sudo apt install default-jdk
 ```
 Get the latest releases for Kinan City Core and Kinan City Email, & scp or wget or do whatever to get them inside the server **within differnt** directories, because each of them will read different properties.config files, each with different contents as described below.
+For the mail server config file, you really just need to change 2 lines, one for the proxy ip the email server will need, and the other the custom email domain name, which is just the new $2 DNS obtained from namesilo.com like __kjsdhfsdkj.top__
+
+![image](https://user-images.githubusercontent.com/41696406/188588985-5a8e98b2-6375-4961-9a8c-ba03e857e7bd.png)
+ For the core server config file, only 3 fields I ended up modifying, the captcha.provider to antiCaptcha, key to my own captcha key with no spaces between, proxies to my list of proxies newly obtained from instantproxies.com
+ ![image](https://user-images.githubusercontent.com/41696406/188589671-47854ab4-3c45-4940-ace1-38cb0b49b6b1.png)
+
+After configuring the properties files for both Kinan core server and mail server, run the mail server
+```
+java -jar kinancity-mail-2.1.6-SNAPSHOT.jar
+# if run as background, use nohup
+nohup java -jar kinancity-mail-2.1.6-SNAPSHOT.jar &
+```
+then run the mail server
+```
+java -jar kinancity-core-2.1.6-SNAPSHOT.jar -m <Your_user_defined_header>@<email_domain_name> -f vb***gh -p <your_password> -c <number_of_ptc_u_want>
+```
+
+For me, it was best to do a dry run to check if proxies were working first
+```
+To create 1 account 
+java -jar kinancity-core-2.1.6-SNAPSHOT.jar  -user <ptc_username> -m <user_defined_email_username>@<user_defined_email_domain_name> -p <user_defined_password>
+```
