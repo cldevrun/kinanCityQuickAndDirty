@@ -24,7 +24,7 @@ __Disclaimer__: This guide should be working as of 9/6/2022 and is my interpreta
 ### Steps to Get it Running
 
 #### Buy email domain name & set up DNS records
-Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up 2 DNS records (1 A & 1 MX). For me, I just configured an A record to set my hostname to my server ip address & configured an MX record to set my hostname to my new domain name within my DNS manager. Jot down the new website name because you will need it when setting up Kinan on your server.
+Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up 2 DNS records (1 A & 1 MX). For me, I just configured an A record to set my hostname to my server ip address & configured an MX record to set my hostname to my new domain name within my DNS manager. Records will take 15-30 minutes to propogate. Use mxtoolbox.com to know when your email domain records are up. Jot down the new website name because you will need it when setting up Kinan on your server.
 
 <img width="728" alt="arecordkinan" src="https://user-images.githubusercontent.com/41696406/188580569-124a8e06-2176-4d40-b669-3e13673630f2.png">
 <img width="701" alt="mxrecordkinan" src="https://user-images.githubusercontent.com/41696406/188581743-34c98c47-8bb4-42ef-a345-d25ab8bbe281.png">
@@ -37,3 +37,8 @@ After getting an account key on the site, all you just need to do is to activate
 I just instantproxies.com to get some residential ip proxies to get around PTC ip bans. Forked $10 USD over for 10 of them. If there are some invalid ones, you can kindly ask customer service to replace them. Take note of your given proxies in the proxy control panel, as well as authorize your server ip to allow your server to use those proxies.
 
 #### Server setup
+The only other thing I installed besides Kinan City related stuff is just Java. I just followed this Digital Ocean [guide](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04). Just ran these 2 commands & went on to configure Kinan.
+```
+sudo apt install default-jre
+sudo apt install default-jdk
+```
