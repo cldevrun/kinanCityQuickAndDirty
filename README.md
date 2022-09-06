@@ -24,15 +24,16 @@ __Disclaimer__: This guide should be working as of 9/6/2022 and is my interpreta
 ### Steps to Get it Running
 
 #### Buy email domain name & set up DNS records
-Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up 2 DNS records (1 A & 1 MX). For me, I just configured an A record to set my hostname to my server ip address & configured an MX record to set my hostname to my new domain name within my DNS manager.
+Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up 2 DNS records (1 A & 1 MX). For me, I just configured an A record to set my hostname to my server ip address & configured an MX record to set my hostname to my new domain name within my DNS manager. Jot down the new website name because you will need it when setting up Kinan on your server.
 
 <img width="728" alt="arecordkinan" src="https://user-images.githubusercontent.com/41696406/188580569-124a8e06-2176-4d40-b669-3e13673630f2.png">
 <img width="701" alt="mxrecordkinan" src="https://user-images.githubusercontent.com/41696406/188581743-34c98c47-8bb4-42ef-a345-d25ab8bbe281.png">
 
 #### Buy Anti-Captcha token
 I just used the recommended anti-captcha.com site, forked over $5 to borrow their automatic captcha solvers, because I have little patience to solve them manually.
+After getting an account key on the site, all you just need to do is to activate it. Jot the account key down somewhere because you will need it for server setup.
 
 #### Buy Site Proxies like InstantProxy
-I just instantproxies.com to get some residential ip proxies to get around PTC ip bans. Forked $10 USD over for 10 of them. If there are some invalid ones, you can kindly ask customer service to replace them.
+I just instantproxies.com to get some residential ip proxies to get around PTC ip bans. Forked $10 USD over for 10 of them. If there are some invalid ones, you can kindly ask customer service to replace them. Take note of your given proxies in the proxy control panel, as well as authorize your server ip to allow your server to use those proxies.
 
 #### Server setup
