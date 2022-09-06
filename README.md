@@ -24,6 +24,7 @@ __Disclaimer__: This guide should be working as of 9/6/2022 and is my interpreta
 ### Steps to Get it Running
 
 #### Buy email domain name & set up DNS records
+Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up an MX record used for email servers.
 
 #### Buy Anti-Captcha token
 
