@@ -24,7 +24,10 @@ __Disclaimer__: This guide should be working as of 9/6/2022 and is my interpreta
 ### Steps to Get it Running
 
 #### Buy email domain name & set up DNS records
-Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up 2 DNS records.
+Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up 2 DNS records (1 A & 1 MX). For me, I just configured an A record to set my hostname to my server ip address & configured an MX record to set my hostname to my new domain name within my DNS manager.
+
+<img width="728" alt="arecordkinan" src="https://user-images.githubusercontent.com/41696406/188580569-124a8e06-2176-4d40-b669-3e13673630f2.png">
+<img width="701" alt="mxrecordkinan" src="https://user-images.githubusercontent.com/41696406/188581743-34c98c47-8bb4-42ef-a345-d25ab8bbe281.png">
 
 #### Buy Anti-Captcha token
 I just used the recommended anti-captcha.com site, forked over $5 to borrow their automatic captcha solvers, because I have little patience to solve them manually.
