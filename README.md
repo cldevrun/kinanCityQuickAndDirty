@@ -42,3 +42,4 @@ The only other thing I installed besides Kinan City related stuff is just Java. 
 sudo apt install default-jre
 sudo apt install default-jdk
 ```
+Get the latest releases for Kinan City Core and Kinan City Email, & scp or wget or do whatever to get them inside the server **within differnt** directories, because each of them will read different properties.config files, each with different contents as described below.
