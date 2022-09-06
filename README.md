@@ -55,7 +55,7 @@ java -jar kinancity-mail-2.1.6-SNAPSHOT.jar
 # if run as background, use nohup
 nohup java -jar kinancity-mail-2.1.6-SNAPSHOT.jar &
 ```
-then run the mail server
+then run the core server to generate your PTC accounts
 ```
 java -jar kinancity-core-2.1.6-SNAPSHOT.jar -m <Your_user_defined_header>@<email_domain_name> -f vb***gh -p <your_password> -c <number_of_ptc_u_want>
 ```
