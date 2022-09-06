@@ -6,10 +6,10 @@ __Disclaimer__: This guide should be working as of 9/6/2022 and is my interpreta
 ## Table of Contents
 * [Costs Breakdown](https://github.com/cldevrun/kinanCityQuickAndDirty/blob/main/README.md#costs-breakdown)
 * [Steps to Get it Running](https://github.com/cldevrun/kinanCityQuickAndDirty/blob/main/README.md#steps-to-get-it-running)
-   * [Buy email domain name & set up DNS records]()
-   * [Buy Anti-Captcha token]()
-   * [Buy Site Proxies like InstantProxy]()
-   * [Server setup]()
+   * [Buy email domain name & set up DNS records](https://github.com/cldevrun/kinanCityQuickAndDirty/blob/main/README.md#buy-email-domain-name--set-up-dns-records)
+   * [Buy Anti-Captcha token](https://github.com/cldevrun/kinanCityQuickAndDirty/blob/main/README.md#buy-anti-captcha-token)
+   * [Buy Site Proxies like InstantProxy](https://github.com/cldevrun/kinanCityQuickAndDirty/blob/main/README.md#buy-site-proxies-like-instantproxy)
+   * [Server setup](https://github.com/cldevrun/kinanCityQuickAndDirty/blob/main/README.md#server-setup)
 
 
 ### Costs Breakdown
@@ -24,10 +24,12 @@ __Disclaimer__: This guide should be working as of 9/6/2022 and is my interpreta
 ### Steps to Get it Running
 
 #### Buy email domain name & set up DNS records
-Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up an MX record used for email servers.
+Any site that sells domain names is fine. I just used namesilo.com to buy a cheap domain name & set up 2 DNS records.
 
 #### Buy Anti-Captcha token
+I just used the recommended anti-captcha.com site, forked over $5 to borrow their automatic captcha solvers, because I have little patience to solve them manually.
 
 #### Buy Site Proxies like InstantProxy
+I just instantproxies.com to get some residential ip proxies to get around PTC ip bans. Forked $10 USD over for 10 of them. If there are some invalid ones, you can kindly ask customer service to replace them.
 
 #### Server setup
